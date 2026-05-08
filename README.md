@@ -7,7 +7,10 @@
   <p align="center">
     <a href="#-installation"><img src="https://img.shields.io/badge/python-3.7%2B-blue?logo=python&logoColor=white" alt="Python 3.7+"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License"></a>
-    <a href="#-changelog"><img src="https://img.shields.io/badge/version-GUI_v1.1-purple" alt="Version"></a>
+    <a href="#-changelog"><img src="https://img.shields.io/badge/version-GUI_v1.2-purple" alt="Version"></a>
+  </p>
+  <p align="center">
+    <h3>⬇️ <a href="https://github.com/najeebulhussan/kobackupdec-master/releases/latest">Download the Standalone Windows Executable (.exe)</a> ⬇️</h3>
   </p>
 </p>
 
@@ -67,6 +70,14 @@ cd kobackupdec
 # 2. Install dependencies
 pip install -r requirements.txt
 ```
+
+### 📦 Building a Standalone Executable (.exe)
+
+You can compile the GUI into a portable `.exe` file that requires zero setup (no Python installation needed):
+
+1. Install PyInstaller: `pip install pyinstaller Pillow`
+2. Run the build script: `python build.py`
+3. The standalone application will be generated at `dist/KoBackupDecryptor.exe`.
 
 ### Dependencies
 
